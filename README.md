@@ -3,8 +3,8 @@
 
 
 
-**1월 29일 공부**
-> video 4 ~ video 20
+**1월 29일 공부 (video 4 ~ video 20)**
+
 
 + 클래스 컴포넌트 , 함수형 컴포넌트
 + import, export
