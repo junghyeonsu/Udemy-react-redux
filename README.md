@@ -1,13 +1,25 @@
-##### 유데미 강좌 (리액트와 리덕스)
-# Udemy- React & Redux
+# ReduxSimpleStarter
 
+Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
+### Getting Started
 
-**1월 29일 공부 (video 4 ~ video 20)**
+There are two methods for getting started with this repo.
 
+#### Familiar with Git?
+Checkout this repo, install dependencies, then start the gulp process with the following:
 
-+ 클래스 컴포넌트 , 함수형 컴포넌트
-+ import, export
-+ 왜 input에 value값을 계속 onChange로 보게하는가?
+```
+> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
+> cd ReduxSimpleStarter
+> npm install
+> npm start
+```
 
-* * *
+#### Not Familiar with Git?
+Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+
+```
+> npm install
+> npm start
+```
