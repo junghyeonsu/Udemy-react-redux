@@ -12,3 +12,10 @@
 + video_details , video_list , video_list_item 작성하기
 + map 함수 익히기
 + key 값에 대해서 알기
+
+### 1월 31일 공부 (video 29 ~ video 33)
+
++ 비디오 선택하기
++ input 검색어 조절
++ css 스타일링하기
++ 부모 컴포넌트와 자식 컴포넌트 사이 연결
