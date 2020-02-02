@@ -19,3 +19,11 @@
 + input 검색어 조절
 + css 스타일링하기
 + 부모 컴포넌트와 자식 컴포넌트 사이 연결
+
+* * *
+요기서부터 Redux
+### 2월 1일 공부 (video 34 ~ video 46)
+
++ 리덕스에 대해서
++ container 개념에 대해서
++ reducer , action 에 대해서
