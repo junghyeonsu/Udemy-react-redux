@@ -4,3 +4,10 @@ export function selectBook(book){
         payload : book,
     };
 }
+
+export function selectFriend(friend){
+    return{
+        type : 'FRIEND_SELECTED',
+        payload : friend,
+    };
+}

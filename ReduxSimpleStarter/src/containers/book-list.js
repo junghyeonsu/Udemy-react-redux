@@ -1,6 +1,6 @@
 import React , { Component } from 'react';
 import { connect } from 'react-redux';
-import { selectBook } from '../actions/index';
+import { selectBook , selectFriend } from '../actions/index';
 import { bindActionCreators } from 'redux';
 
 class BookList extends Component {
@@ -16,11 +16,25 @@ class BookList extends Component {
             );
         });
     }
+
+    renderFriendList(){
+        return this.props.friends.map((friend) => {
+            return (
+                <li 
+                    key={friend.name}
+                    onClick={() => this.props.selectFriend(friend)} 
+                    className='list-group-item'>
+                    {friend.name}
+                </li>
+            );
+        });
+    }
     
     render() {
         return (
             <ul className='list-group col-sm-4'>
-                {this.renderList()}
+                <div>{this.renderList()}</div>
+                <div>{this.renderFriendList()}</div>
             </ul>
         );
     }
@@ -28,12 +42,16 @@ class BookList extends Component {
 
 function mapStateToProps(state) {
     return {
-        books : state.books,
+        books : state.book,
+        friends : state.friend,
     };
 } 
 
 function mapDispatchToProps(dispatch) {
-    return bindActionCreators({ selectBook : selectBook }, dispatch)
+    return bindActionCreators({ 
+        selectBook : selectBook,
+        selectFriend : selectFriend,
+     }, dispatch)
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(BookList);
