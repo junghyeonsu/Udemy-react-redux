@@ -27,3 +27,7 @@
 + 리덕스에 대해서
 + container 개념에 대해서
 + reducer , action 에 대해서
+
+### 2월 4일 공부 (video 47 ~ video 50)
+
++ 나혼자 redux 코딩 해보기
